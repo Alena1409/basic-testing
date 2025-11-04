@@ -19,6 +19,10 @@ type ValidCalculatorInput = {
 };
 
 export const simpleCalculator = (
+  _p0: number,
+  _p1: number,
+  _ActionParam: typeof Action,
+  _p2: string,
   rawInput: RawCalculatorInput,
 ): number | null => {
   if (isInputValid(rawInput)) {
